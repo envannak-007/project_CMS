@@ -99,12 +99,12 @@
                     container.innerHTML +=`
                         <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4">
                             <a href="details.html?id=${item.id}" class="text-decoration-none">
-                                <div class="card h-100">
-                                <img src="${item.img}" class="card-img-top img-fluid" alt="">
+                                <div class="card h-100 cardall">
+                                <img src="${item.img}" class="card-img-top img-fluid cardImg" alt="">
                                     <div class="card-body d-flex flex-column">
                                         <span class="border rounded-3 fs-6 w-50 p-1 mb-2">${item.btn}</span>
-                                        <h5 class="card-title" id ="titie">${item.title}</h5>
-                                        <p class="card-text" id ="text">${item.desc}...</p>
+                                        <h5 class="card-title fs-4" id ="titleHead">${item.title}</h5>
+                                        <p class="card-text fs-5" id ="text">${item.desc}...</p>
                                     </div>
                                     </div>
                                 </a>

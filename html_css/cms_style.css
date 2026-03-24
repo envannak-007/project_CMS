@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    font-family: "Battambang", system-ui;
+   font-family: "Khmer", sans-serif;
 }
 body {
   padding-top: 80px;
@@ -46,26 +46,28 @@ body {
     transform: scale(1.1);
 }
 /* Card of business */
-.cardBusiness {
+.cardall {
     border-radius: 15px;
     overflow: hidden;
     transition: 0.3s;
     box-shadow: 1px 1px 10px;
     cursor: pointer;
 }
-.cardImage{
+.cardImg{
     transition: all .2s linear;
 }
-.cardImage:hover{
+.cardImg:hover{
     transform: scale(1.1);
 }
-#title{
+#titleHead{
+    font-weight: bold;
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
     word-break: break-all;
+    line-height: 2.5;
 }
 #text{
     display: -webkit-box;
